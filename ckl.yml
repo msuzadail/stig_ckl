@@ -1,0 +1,31 @@
+---
+
+- name: Copy the CKL file to a working copy
+  ansible.builtin.copy:
+    src: "{{ item }}"
+    dest: /tmp/file 
+    backup: yes
+    force: yes
+
+- name: regex all of the things
+  ansible.builtin.shell: |
+    sed -i "/{{ item.key }}/,/<\/VULN>/ s/COMMENTS>.*</COMMENTS>{{ item.value.comment }}</" /tmp/file && \
+    sed -i "/{{ item.key }}/,/<\/VULN>/ s/STATUS>.*</STATUS>{{ item.value.status }}</" /tmp/file
+        
+  with_items: "{{ vulns | dict2items }}"
+
+
+- name: Copy working file to completed dir
+  ansible.builtin.copy:
+    src: /tmp/file
+    dest: "{{ completed_dir }}/{{ item | basename }}"
+    force: yes
+
+
+
+    # - debug:
+    #     msg: "{{ item.key }} some stuff {{ item.value.comment }}"
+    #   with_items: 
+    #     - "{{ vulns | dict2items }}"
+
+    # sed -i "/V-$VULNNUM/,/<\/VULN>/ s/COMMENTS>.*</COMMENTS>$COMMENT</"

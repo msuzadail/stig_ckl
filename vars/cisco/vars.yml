@@ -1,0 +1,209 @@
+vulns:
+  V-216700:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96973:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-216727:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-97027:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-216733:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-97039:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-216996:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96869:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-217001:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96999:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-230039:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-230042:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215808:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96197:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215809:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96199:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215810:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96201:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215811:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96203:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215813:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96207:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215815:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96217:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215817:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96223:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215819:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96227:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215820:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96231:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215821:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96233:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215822:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96237:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215823:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96239:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215832:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96265:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215834:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96285:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215838:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96303:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215844:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96327:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215845:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96329:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215848:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96335:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215849:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96337:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-215850:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 
+  V-96339:
+    comment: "Known False Positive"
+    status: "NotAFinding"
+    findingdetails: "add details here" 

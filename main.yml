@@ -1,0 +1,33 @@
+---
+- name: insert comments in .ckl file
+  hosts: localhost
+  gather_facts: no
+  vars:
+    device_type: cisco
+    checklist_dir: "~/ansible/checklists"
+    completed_dir: "~/completed_checklists"
+
+  vars_files:
+    - "vars/{{ device_type }}/vars.yml"
+
+  tasks:
+    - name: If {{ checklist_dir }}/{{ device_type }} is empty, exit
+      find:
+        paths: "{{ checklist_dir }}/{{ device_type }}/"
+        patterns: "*.ckl"
+      register: filesFound
+    
+    - fail:
+        msg: Checklist directory is empty...exiting
+      when: filesFound.matched == 0
+    
+    - name: create Completed ckl dir
+      ansible.builtin.file:
+        path: "{{ completed_dir }}"
+        state: directory
+
+    - name: Update all CKL files in a dir
+      include_tasks: ckl.yml
+      with_fileglob: 
+        - "{{ checklist_dir }}/{{ device_type }}/*.ckl"
+
