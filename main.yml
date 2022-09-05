@@ -4,7 +4,7 @@
   gather_facts: no
   vars:
     device_type: cisco
-    checklist_dir: "~/ansible/checklists"
+    checklist_dir: "~/checklists"
     completed_dir: "~/completed_checklists"
 
   vars_files:
