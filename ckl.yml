@@ -2,7 +2,7 @@
 
 - name: Copy the CKL file to a working copy
   ansible.builtin.copy:
-    src: "{{ item }}"
+    src: "{{ item.path }}"
     dest: /tmp/file 
     backup: yes
     force: yes
