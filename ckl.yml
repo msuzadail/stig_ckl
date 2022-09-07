@@ -2,10 +2,11 @@
 
 - name: Copy the CKL file to a working copy
   ansible.builtin.copy:
-    remote_src: "{{ item.path }}"
+    src: "{{ item.path }}"
     dest: /tmp/file 
     backup: yes
     force: yes
+    remote_src: yes
 
 - name: regex all of the things
   ansible.builtin.shell: |
