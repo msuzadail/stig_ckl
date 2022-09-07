@@ -28,6 +28,9 @@
 
     - name: Update all CKL files in a dir
       include_tasks: ckl.yml
-      with_fileglob: 
-        - "{{ checklist_dir }}/{{ device_type }}/*.ckl"
+      with_items: "{{ filesFound.files }}"
+ 
+
+#with_fileglob: 
+#        - "{{ checklist_dir }}/{{ device_type }}/*.ckl"
 
