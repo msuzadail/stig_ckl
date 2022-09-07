@@ -1,6 +1,6 @@
 ---
 - name: insert comments in .ckl file
-  hosts: localhost
+  hosts: all
   gather_facts: no
   vars:
     device_type: cisco
