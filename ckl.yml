@@ -21,6 +21,7 @@
     src: /tmp/file
     dest: "{{ completed_dir }}/{{ item.path | basename }}"
     force: yes
+    remote_src: yes
 
 
 
