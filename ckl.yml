@@ -19,7 +19,7 @@
 - name: Copy working file to completed dir
   ansible.builtin.copy:
     src: /tmp/file
-    dest: "{{ completed_dir }}/{{ item | basename }}"
+    dest: "{{ completed_dir }}/{{ item.path | basename }}"
     force: yes
 
 
